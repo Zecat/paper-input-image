@@ -1,10 +1,10 @@
 {
   "name": "paper-input-image",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "authors": [
-    "Anonymous <anonymous@example.com>"
+    "Zecat <jullienfelix@gmail.com>"
   ],
-  "description": "An element providing a solution to no problem in particular.",
+  "description": "A material input type image",
   "keywords": [
     "web-component",
     "polymer",
@@ -12,16 +12,16 @@
   ],
   "main": "paper-input-image.html",
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "homepage": "https://github.com/zecat/paper-input-image/",
   "ignore": [
     "/.*",
     "/test/"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.1.0",
-    "iron-input-image": "https://github.com/Zecat/iron-input-image.git#master",
-    "paper-tile": "https://github.com/Zecat/paper-tile.git#master",
-    "iron-icons": "PolymerElements/iron-icons#~1.0.5"
+    "polymer": "Polymer/polymer#^1.2.0",
+    "iron-input-image": "Zecat/iron-input-image#~1.0.0",
+    "paper-tile": "Zecat/paper-tile#~1.0.1",
+    "iron-icons": "PolymerElements/iron-icons#~1.1.1"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",

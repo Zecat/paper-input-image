@@ -11,7 +11,7 @@ Example:
 
     <paper-input-image></paper-input-image>
 
-@group Seed Elements
+@group Paper Elements
 @element paper-input-image
 @demo demo/index.html
 @hero hero.svg
@@ -56,27 +56,51 @@ Example:
     is: 'paper-input-image',
 
     properties: {
-      title: {
+      /**
+       * The text displayed when no image is selected.
+       */
+      noImageText: {
         type: String,
         value: 'No image selected'
       },
+      /**
+       * The image src.
+       */
       src: {
         type: String,
         value: ''
       },
+      /**
+       * The size of the selected image (ko).
+       */
       size: {
         type: Number,
         value: 0
+      },
+      /**
+       * The text displayed. Equales to noImageText if no image is selected and 
+       * updates from the image file's title when a new one is selected.
+       */
+      title: {
+        type: String
       }
     },
 
+    attached: function() {
+      this.title = this.noImageText;
+    },
+    /**
+     * Choose a new image from the user disk.
+     */
     choose: function() {
       this.$.inputImage.choose();
     },
-
+    /**
+     * Remove the selected image.
+     */
     clear: function() {
       this.$.inputImage.clear();
-      this.title = 'No image selected';
+      this.title = this.noImageText;
     },
 
     _computeIcon: function(src) {

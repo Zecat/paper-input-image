@@ -22,6 +22,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <body unresolved>
 
     <style is="custom-style" include="demo-pages-shared-styles">
+      .vertical-section-container {
+        max-width: 500px;
+      }
     </style>
 
     <div class="vertical-section-container centered">
@@ -33,7 +36,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               height: 300px;
             }
           </style>
-          <paper-input-image></paper-input-image>
+          <paper-input-image no-image-text="Click to select an image">
+          </paper-input-image>
         </template>
       </demo-snippet>
     </div>
