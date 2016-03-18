@@ -67,21 +67,24 @@ Example:
        */
       noImageText: {
         type: String,
-        value: 'No image selected'
+        value: 'No image selected',
+        notify: true
       },
       /**
        * The image src.
        */
       src: {
         type: String,
-        value: ''
+        value: '',
+        notify: true
       },
       /**
        * The size of the selected image (ko).
        */
       size: {
         type: Number,
-        value: 0
+        value: 0,
+        notify: true
       },
       /**
        * The text displayed. Equales to noImageText if no image is selected and 
