@@ -1,0 +1,41 @@
+{
+  "name": "paper-input-image",
+  "authors": [
+    "Zecat <jullienfelix@gmail.com>"
+  ],
+  "description": "A material input type image",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "seed"
+  ],
+  "main": "paper-input-image.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/zecat/paper-input-image/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0",
+    "iron-input-image": "Zecat/iron-input-image#^1.0.0",
+    "paper-tile": "Zecat/paper-tile#^1.0.1",
+    "iron-icons": "PolymerElements/iron-icons#^1.1.1",
+    "iron-form-element-behavior": "PolymerElements/iron-form-element-behavior#^1.0.6"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.3"
+  },
+  "_release": "2b18691f29",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2b18691f29c7d72d4d694fbb62c5f5d56fe466c4"
+  },
+  "_source": "https://github.com/Zecat/paper-input-image.git",
+  "_target": "master",
+  "_originalSource": "https://github.com/Zecat/paper-input-image.git",
+  "_direct": true
+}
